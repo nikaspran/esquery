@@ -1,6 +1,6 @@
 /* vim: set sw=4 sts=4 : */
-import estraverse from 'estraverse';
-import parser from './parser.js';
+const estraverse = require('estraverse');
+const parser = require('./parser.js');
 
 /**
 * @typedef {"LEFT_SIDE"|"RIGHT_SIDE"} Side
@@ -420,4 +420,4 @@ query.traverse = traverse;
 query.matches = matches;
 query.query = query;
 
-export default query;
+module.exports = query;

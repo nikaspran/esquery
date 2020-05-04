@@ -4,7 +4,7 @@
   "author": "Joel Feenstra <jrfeenst+esquery@gmail.com>",
   "contributors": [],
   "description": "A query library for ECMAScript AST using a CSS selector like query language.",
-  "main": "dist/esquery.min.js",
+  "main": "./esquery.js",
   "module": "dist/esquery.esm.min.js",
   "files": [
     "dist/*.js",
